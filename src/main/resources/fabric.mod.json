@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aoa3fabric",
+	"version": "${version}",
+	"name": "AoA3-Fabric",
+	"description": "This is my attempt to recreate AoA3 in fabric",
+	"authors": [
+		"Tslat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/aoa3fabric/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.svln.aoa3fabric.AoA3Fabric"
+		],
+		"client": [
+			"com.svln.aoa3fabric.AoA3FabricClient"
+		],
+		"fabric-datagen": [
+			"com.svln.aoa3fabric.AoA3FabricDataGenerator"
+		]
+	},
+	"mixins": [
+		"aoa3fabric.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
