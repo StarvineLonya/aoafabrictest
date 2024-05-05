@@ -20,59 +20,16 @@ public class AoACreativeModeTab {
                         //
                     })).build());
 
-    public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AoA3Fabric.MOD_ID,"food"),
+    public static final ItemGroup GENERATION_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(AoA3Fabric.MOD_ID,"worldgen_blocks"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.food"))
                     .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
-                        //food entries here
+                        //generation blocks entries here
+                        entries.add(AoABlocks.ABYSSAL_STONE);
 
                         //
                     })).build());
 
-    public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AoA3Fabric.MOD_ID,"food"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.food"))
-                    .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
-                        //food entries here
-
-                        //
-                    })).build());
-
-    public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AoA3Fabric.MOD_ID,"food"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.food"))
-                    .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
-                        //food entries here
-
-                        //
-                    })).build());
-
-    public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AoA3Fabric.MOD_ID,"food"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.food"))
-                    .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
-                        //food entries here
-
-                        //
-                    })).build());
-
-    public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AoA3Fabric.MOD_ID,"food"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.food"))
-                    .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
-                        //food entries here
-
-                        //
-                    })).build());
-
-    public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AoA3Fabric.MOD_ID,"food"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.food"))
-                    .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
-                        //food entries here
-
-                        //
-                    })).build());
 
 
     public static void registerItemGroup(){
