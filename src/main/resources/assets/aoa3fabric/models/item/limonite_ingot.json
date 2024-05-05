@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aoa3fabric:item/limonite_ingot"
+  }
+}
