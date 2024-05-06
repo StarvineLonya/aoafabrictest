@@ -6,7 +6,7 @@
 ### Todo
 
 - [ ] Densestone ant generation
-- [ ] stone group
+- [ ] 
 
 ### In Progress
 

@@ -13,7 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class AoABlocks {
-    //
+    //stone
     public static final Block ABYSSAL_STONE = registerBlock("abyssal_stone",new Block(FabricBlockSettings.copyOf(Blocks.STONE).mapColor(MapColor.DARK_RED)));
     public static final Block AROMATIC_STONE = registerBlock("aromatic_stone",new Block(FabricBlockSettings.copyOf(Blocks.STONE).mapColor(MapColor.MAGENTA)));
     public static final Block BARON_STONE = registerBlock("baron_stone",new Block(FabricBlockSettings.copyOf(Blocks.STONE).mapColor(MapColor.TERRACOTTA_CYAN)));
@@ -35,7 +35,21 @@ public class AoABlocks {
     public static final Block RUNIC_STONE = registerBlock("runic_stone",new Block(FabricBlockSettings.copyOf(Blocks.STONE).mapColor(MapColor.BLUE)));
     public static final Block WEIGHTLESS_STONE = registerBlock("weightless_stone",new Block(FabricBlockSettings.copyOf(Blocks.STONE).mapColor(MapColor.TERRACOTTA_LIGHT_BLUE)));
 
-
+    //dirt
+    public static final  Block ARCHAIC_DIRT = registerBlock("archaic_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.DIRT_BROWN).strength(1.5f,4f)));
+    public static final Block AROMATIC_DIRT = registerBlock("aromatic_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.MAGENTA)));
+    public static final Block BLACKENED_SOIL = registerBlock("blackened_soil", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.GRAY)));
+    public static final Block CANDIED_DIRT = registerBlock("candied_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.PINK)));
+    public static final Block CELEVIAN_DIRT = registerBlock("celevian_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.WHITE)));
+    public static final Block CORAL_SOIL = registerBlock("coral_soil", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block CREEP_DIRT = registerBlock("creep_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.DARK_GREEN)));
+    public static final Block FUNGAL_DIRT = registerBlock("fungal_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.MAGENTA)));
+    public static final Block GRECKON_DIRT = registerBlock("greckon_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.TERRACOTTA_BROWN)));
+    public static final Block LUNALYTE_DIRT = registerBlock("lunalyte_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.PINK)));
+    public static final Block LUNASOLE_DIRT = registerBlock("lunasole_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.PALE_PURPLE)));
+    public static final Block POLLUTED_SOIL = registerBlock("polluted_soil", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.TERRACOTTA_CYAN)));
+    public static final Block PRECASIAN_SOIL = registerBlock("precasian_soil", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.BROWN)));
+    public static final Block WEIGHTLESS_DIRT = registerBlock("weightless_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.MAGENTA)));
 
 
     //

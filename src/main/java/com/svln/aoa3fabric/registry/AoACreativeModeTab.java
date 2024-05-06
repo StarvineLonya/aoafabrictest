@@ -26,7 +26,39 @@ public class AoACreativeModeTab {
                     .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
                         //generation blocks entries here
                         entries.add(AoABlocks.ABYSSAL_STONE);
-
+                        entries.add(AoABlocks.AROMATIC_STONE);
+                        entries.add(AoABlocks.BARON_STONE);
+                        entries.add(AoABlocks.BRIGHT_ROCK);
+                        entries.add(AoABlocks.CORAL_ROCK);
+                        entries.add(AoABlocks.CREEP_STONE);
+                        entries.add(AoABlocks.CRYSTALLISED_ROCK);
+                        entries.add(AoABlocks.DARKENED_ROCK);
+                        entries.add(AoABlocks.DENSE_STONE);
+                        entries.add(AoABlocks.FUNGAL_ROCK);
+                        entries.add(AoABlocks.GRECKON_STONE);
+                        entries.add(AoABlocks.HELLSTONE);
+                        entries.add(AoABlocks.IROSTONE);
+                        entries.add(AoABlocks.LELYETIAN_STONE);
+                        entries.add(AoABlocks.POLLUTED_STONE);
+                        entries.add(AoABlocks.PRECASIAN_STONE);
+                        entries.add(AoABlocks.PRESSED_CREEP_STONE);
+                        entries.add(AoABlocks.PRIMED_STONE);
+                        entries.add(AoABlocks.RUNIC_STONE);
+                        entries.add(AoABlocks.WEIGHTLESS_STONE);
+                        entries.add(AoABlocks.ARCHAIC_DIRT);
+                        entries.add(AoABlocks.AROMATIC_DIRT);
+                        entries.add(AoABlocks.BLACKENED_SOIL);
+                        entries.add(AoABlocks.CANDIED_DIRT);
+                        entries.add(AoABlocks.CELEVIAN_DIRT);
+                        entries.add(AoABlocks.CORAL_SOIL);
+                        entries.add(AoABlocks.CREEP_DIRT);
+                        entries.add(AoABlocks.FUNGAL_DIRT);
+                        entries.add(AoABlocks.GRECKON_DIRT);
+                        entries.add(AoABlocks.LUNALYTE_DIRT);
+                        entries.add(AoABlocks.LUNASOLE_DIRT);
+                        entries.add(AoABlocks.POLLUTED_SOIL);
+                        entries.add(AoABlocks.PRECASIAN_SOIL);
+                        entries.add(AoABlocks.WEIGHTLESS_DIRT);
                         //
                     })).build());
 

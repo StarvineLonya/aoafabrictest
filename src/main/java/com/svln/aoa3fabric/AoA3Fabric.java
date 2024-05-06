@@ -1,6 +1,7 @@
 package com.svln.aoa3fabric;
 
 import com.svln.aoa3fabric.registry.AoABlocks;
+import com.svln.aoa3fabric.registry.AoACreativeModeTab;
 import com.svln.aoa3fabric.registry.AoAItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,6 +18,7 @@ public class AoA3Fabric implements ModInitializer {
 	public void onInitialize() {
 		AoABlocks.registerModBlocks();
 		AoAItems.registerModItems();
+		AoACreativeModeTab.registerItemGroup();
 	}
 	//
 }
