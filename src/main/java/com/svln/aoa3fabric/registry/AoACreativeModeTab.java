@@ -22,8 +22,8 @@ public class AoACreativeModeTab {
 
     public static final ItemGroup GENERATION_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AoA3Fabric.MOD_ID,"worldgen_blocks"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.food"))
-                    .icon(() -> new ItemStack(AoAItems.LIMONITE_INGOT)).entries(((displayContext, entries) -> { //icon here
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.aoa3fabric.worldgen_blocks"))
+                    .icon(() -> new ItemStack(AoABlocks.ABYSSAL_STONE)).entries(((displayContext, entries) -> { //icon here
                         //generation blocks entries here
                         entries.add(AoABlocks.ABYSSAL_STONE);
                         entries.add(AoABlocks.AROMATIC_STONE);

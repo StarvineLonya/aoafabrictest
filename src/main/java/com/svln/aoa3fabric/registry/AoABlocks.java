@@ -49,8 +49,7 @@ public class AoABlocks {
     public static final Block LUNASOLE_DIRT = registerBlock("lunasole_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.PALE_PURPLE)));
     public static final Block POLLUTED_SOIL = registerBlock("polluted_soil", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.TERRACOTTA_CYAN)));
     public static final Block PRECASIAN_SOIL = registerBlock("precasian_soil", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.BROWN)));
-    public static final Block WEIGHTLESS_DIRT = registerBlock("weightless_dirt", new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.MAGENTA)));
-
+    public static final Block WEIGHTLESS_DIRT = registerBlock("weightless_dirt", BlockRegistrar.blockCreator(Blocks.DIRT,MapColor.BROWN));
 
     //
     private static Block registerBlock(String name, Block block){
@@ -61,8 +60,9 @@ public class AoABlocks {
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(AoA3Fabric.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
-        //
     }
+
+    //
     public static void registerModBlocks() {
         AoA3Fabric.LOGGER.info("Registering AoABlocks for" + AoA3Fabric.MOD_ID);
     }
